@@ -16,7 +16,7 @@ import { indexMenuLinks } from '../components/_config/menu-links';
 import Helmet from 'react-helmet';
 <Helmet>
   <html lang="en" />
-  <title>{site.siteMetadata.title}</title>
+
   <meta
     name="google-site-verification"
     content="yFQp8B7OcsrAmCL662an9P5OaqMPP6KOW8fVU1_KnVg"
