@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/gatsby-starter-level-2',
+  pathPrefix: '/CrazySolution-Technology-Agency-Website',
   siteMetadata: {
     title: 'We are a top of the line Website Design & Development Company',
     titleTemplate: 'CrazySolution Technology - We are a top of the line Website Design & Development Company',
