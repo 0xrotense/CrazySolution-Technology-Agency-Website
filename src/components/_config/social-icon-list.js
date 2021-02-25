@@ -7,7 +7,7 @@ export const socialIconList = [
   {
     name: 'github',
     prefix: 'fab',
-    link: 'https://github.com/rotensepro',
+    link: 'https://github.com/rotensepro/CrazySolution-Technology-Agency-Website',
   },
   {
     name: 'whatsapp',
