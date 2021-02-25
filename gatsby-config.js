@@ -105,7 +105,7 @@ module.exports = {
         query: `{
           site {
             siteMetadata {
-              siteUrlNoSlash
+              siteUrl
             }
           }
           allSitePage {
