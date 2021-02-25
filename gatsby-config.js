@@ -6,7 +6,7 @@ module.exports = {
     image: '/images/logo.png',
     author: 'CrazySolution Technology',
     description: 'We are a top of the line Website Design & Development Company.',
-    url: 'https://crazysolution.net',
+    siteUrl: 'https://crazysolution.net',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [
