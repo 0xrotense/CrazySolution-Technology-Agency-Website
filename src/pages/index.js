@@ -1,6 +1,7 @@
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import Helmet from 'react-helmet';
 import About from '../components/about';
 import CardGrid from '../components/card-grid';
 import Contact from '../components/contact';
@@ -13,15 +14,11 @@ import SEO from '../components/seo';
 import { indexMenuLinks } from '../components/_config/menu-links';
 
 //index.js
-import Helmet from 'react-helmet';
 <Helmet>
   <html lang="en" />
-
-  <meta
-    name="google-site-verification"
-    content="yFQp8B7OcsrAmCL662an9P5OaqMPP6KOW8fVU1_KnVg"
-  />
-</Helmet>;
+  <title>{site.siteMetadata.title}</title>
+  <meta name="google-site-verification" content="yFQp8B7OcsrAmCL662an9P5OaqMPP6KOW8fVU1_KnVg" />
+</Helmet>
 
 const Index = ({ data }) => {
   const heroData = {
