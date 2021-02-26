@@ -1,8 +1,8 @@
 export const socialIconList = [
   {
-    name: 'twitter',
+    name: 'facebook',
     prefix: 'fab', // fab prefix for brands, fas for solid icons
-    link: 'https://twitter.com/rotensepro',
+    link: 'https://facebook.com/crazysolutionpro',
   },
   {
     name: 'github',
