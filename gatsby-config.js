@@ -10,6 +10,7 @@ module.exports = {
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [
+    `gatsby-plugin-google-gtag`
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
